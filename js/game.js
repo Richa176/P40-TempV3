@@ -39,8 +39,8 @@ class Game{
         
                 form.hide();
 
-                Player.getPlayerInfo();
-                player.getPlayerAtEnd();
+//                 Player.getPlayerInfo();
+//                 player.getPlayerAtEnd();
                  image(back_img, 0, 0, 1000, 800);
                  var x =100;
                  var y=200;
@@ -130,19 +130,19 @@ class Game{
          
 
     }
-    showRank() {
-        alert("Awesome !! You finished the game! You rank is :" +player.rank)
-      }
+//     showRank() {
+//         alert("Awesome !! You finished the game! You rank is :" +player.rank)
+//       }
 
-gameOver() {
-    textSize(40)
-    fill("white")
- text("GAME OVER",displayWidth/2-400,displayHeight/2-200)
-    }
+// gameOver() {
+//     textSize(40)
+//     fill("white")
+//  text("GAME OVER",displayWidth/2-400,displayHeight/2-200)
+//     }
     
     end(){
        console.log("Game Ended");
        console.log(player.rank)
-       this.gameOver();
+//        this.gameOver();
     }
 }
